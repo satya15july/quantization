@@ -1,0 +1,21 @@
+torch::Tensor x = torch::randint(index_max, {1, inputsize}, torch::dtype(torch::kInt64).device(torch::kCPU));
+  input.push_back(x);
+  #endif
+  // Execute the model and turn its output into a tensor.
+  auto outputs = module->forward(input).toTuple();
+  auto start = chrono::steady_clock::now();
+  for (int16_t i = 0; i<10; ++i)
+  {
+    outputs = module->forward(input).toTuple();
+  }
+  auto end = chrono::steady_clock::now();
+  cout << "Elapsed time in microseconds : " 
+		<< chrono::duration_cast<chrono::microseconds>(end - start).count()
+		<< " µs" << endl;
+
+
+mkdir build
+cd build
+cmake -DCMAKE_PREFIX_PATH=libtorch/ ..
+make
+./classify ../traced_resnet_model.pt ../data/imageNetLabels.txt ../data/panda.jpg

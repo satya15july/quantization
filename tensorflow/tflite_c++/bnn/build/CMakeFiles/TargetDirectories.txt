@@ -1,0 +1,3 @@
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/tf/bnn/tflite_c++/bnn/build/CMakeFiles/bnn.dir
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/tf/bnn/tflite_c++/bnn/build/CMakeFiles/edit_cache.dir
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/tf/bnn/tflite_c++/bnn/build/CMakeFiles/rebuild_cache.dir

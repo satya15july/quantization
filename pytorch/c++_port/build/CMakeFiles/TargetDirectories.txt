@@ -1,0 +1,3 @@
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/pt/bnn/c++_port/build/CMakeFiles/example-app.dir
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/pt/bnn/c++_port/build/CMakeFiles/edit_cache.dir
+/media/satya/740516b2-56c1-4cf3-9ae2-87b56289b807/work/project/quantization/pt/bnn/c++_port/build/CMakeFiles/rebuild_cache.dir
